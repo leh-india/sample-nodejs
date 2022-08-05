@@ -1,5 +1,5 @@
 FROM node:latest
-WORKDIR /home/ec2-user/sample-nodejs/
+WORKDIR /var/lib/jenkins/workspace/nodeapp-deploy-docker-pipeline/
 COPY /* /usr/app/
 WORKDIR /usr/app/nodeapp
 RUN npm install
